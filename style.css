@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainheader{
+    background-color: #B6DBE1;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.menu{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+#logo1{
+    width: 120px ;
+    height: 100px;
+    float: left;
+    padding: 1px;
+}
+
+#logo1:hover{
+    transform: scale(1.1);
+}
+
+nav{
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: cursive;
+
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #B43C67;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 500ms;
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+}
+
+.Bienvenida{
+    background-image: url(./images/Bienvenida.jpg);
+    width: 100%;
+    height: 565px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Bienvenida h2 {
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family:cursive;
+    position: absolute;
+    left: 105px;
+    top: 80px; 
+}
+.Bienvenida p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    left: 225px;
+    top: 200px; 
+}
+
+.separador1{
+    padding: 10px;
+    
+}
+.separador2{
+    padding: 100px;
+    
+}
+
+/* Seccion de Pasteles */
+div{
+    display: block;
+}
+
+h3{
+    font-size: 90px;
+    font-family: cursive;
+    text-align: center;
+    color: #B43C67;
+    
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+
+li {
+    display: list-item;
+    
+}
+
+.contenedor{
+    display: block;
+    max-width: 1260px;
+    margin: auto;  
+}
+
+.pasteles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px 25px 0;
+    padding: 25px 25px 0;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 20px 0 #B43C67;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0);
+    opacity: .9;
+    transition: .5s;
+    
+}
+.productos:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+
+.imgcake{
+    width: 230px;
+    height: 230px;
+}
+
+
+/* Seccion de Adornos */
+.toppers{
+    display: block;
+    max-width: 1260px;
+    margin: auto;  
+}
+
+.adornos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px 25px 0;
+    padding: 25px 25px 0;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 20px 0 #B43C67;
+    border-radius: 50px;
+    opacity: .8;
+    transition: .5s;
+    
+}
+
+.producto:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.imgtopper{
+    width: 230px;
+    height: 230px;
+}
+
+/* Formulario de pedido */
+
+.formulario{
+    display: flex;
+    max-width: 1260px;
+    margin: auto; 
+    
+}
+
+#form{
+    display: flex;
+    flex-flow: column;
+    float: left;
+    width: 400px;
+
+}
+
+.registro{
+    border-radius: 50px;
+    width: 300px;
+    background-color: #d64e7ece;
+    padding: 3px;
+
+    
+}
+
+.topic{
+    font-family: century gothic;
+    font-size: 23px;
+}
+
+
+.botones{
+    display: flex;
+    border-radius: 20px;
+    width: 1500px;
+    justify-content: center;
+    align-items:end;
+}
+.botones button{
+    display: flex;
+    border-radius: 20px;
+    width: 100px;
+    background-color: #B43C67;
+    justify-content: center;
+    align-items:end;
+    font-size: 18px;
+    font-family: century gothic;
+    color: rgb(240, 238, 236);
+}
+
+.caja2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: auto;
+    padding-top: 10px;
+    margin: 20px;
+    float:right;
+    font-family: century gothic;
+    font-size: 13px;
+    color: #B43C67;
+
+}
+/* Todo bien */
+
+.eleccion{
+    font-family: century gothic;
+    border-radius: 30px;
+    width: 200px;
+    background-color: #d64e7ece;
+    padding: 3px;
+}
+
+.piedepagina{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(224, 127, 167, 0.555);
+    height: 100px;
+    width: auto;
+    margin-bottom: 4px;
+    font-family: century gothic;
+
+}
+
+#contador1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eed0da;
+    border-radius: 20px;
+    width: 45px;
+padding: 3px;
+}
+#contador2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eed0da;
+    border-radius: 20px;
+    width: 45px;
+padding: 3px;
+}
+
+.comentarios{
+    display: flex;
+    background-color: #d47093;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+/* Seccion HOVER */

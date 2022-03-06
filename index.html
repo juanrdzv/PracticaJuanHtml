@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cake, LaunchX, Html, Css">
+    <meta name="description" content="Buy a special Cake">
+
+    <title>Launch Cake</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!--Encabezado y Menu principal-->
+
+    <header class="mainheader" id="inicio"> 
+        <div class="menu">
+            <a href="index.html"><img src="./images/LaunchCakeLogo1.png" alt= "Logo" id="logo1"></a>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#contenedor">Pasteles</a></li>
+                    <li><a href="#toppers">Toppers</a></li>
+                    <li><a href="#formulario">Pedido</a></li>
+                </ul>
+            </nav>
+        </div>
+     </header>
+
+<!-- Bienvendia con Foto de fondo -->
+
+    <div class="Bienvenida">
+        <h2>Bienvenidos</h2>
+        <p>Los pasteles de otro mundo!</p>
+    </div>
+<!--Area en blanco 1-->
+<div class="separador1"> </div>
+
+<!--Area de Pasteles-->
+
+<section class="contenedor" id="contenedor">
+    <h3>Pasteles</h3>
+    
+    <ul class="pasteles">
+
+        <li class="productos"><img src="./images/ArcoirisCake.jpg" alt="ArcoirisCake" class="imgcake"> "Pastel Arcoiris" <br><p> Vainilla con cubierta de frutas</p><p>$199</p></li>
+            
+        <li class="productos"> <img src="./images/CocoCake.jpg" alt="CocoCake" class="imgcake"> "Pastel Coco"<br><p>Sabor coco con cubierta de coco</p><p>$199</p></li>
+
+        <li class="productos"> <img src="./images/DaVinciCake.png" alt="DaVinciCake" class="imgcake"> "Pastel Da Vinci"<br><p>Sabor chocolate con cubierta de cafe</p>$399</p></li>
+
+        <li class="productos"> <img src="./images/DiabloCake.jpg" alt="DiabloCake" class="imgcake"> "Pastel Diablo"<br><p>Sabor 3 leches con crema de avellana</p>$499</p></li>
+
+        <li class="productos"> <img src="./images/HennesyCake.png" alt="HennesyCake" class="imgcake"> "Pastel Hennesy"<br><p>Sabor hennesy con chocolate y fresa</p>$599</p></li>
+
+        <li class="productos"> <img src="./images/IrlandesCake.png" alt="IrlandesCake" class="imgcake"> "Pastel Irlandes"<br><p>Sabor envinado con chocolate blanco</p>$499</p></li>
+
+        <li class="productos"> <img src="./images/OperaCake.png" alt="OperaCake" class="imgcake"> "Pastel Opera"<br><p>Hojaldre con chocolate y nuez</p>$299</p></li>
+
+        <li class="productos"> <img src="./images/3LechesCake.png" alt="3LechesCake" class="imgcake"> "Pastel Tres Leches"<br><p>Sabor Tres leches con chocolate y fresa</p>$199</p></li>
+
+        <li class="productos"> <img src="./images/VanGoghCake.png" alt="VanGoghCake" class="imgcake"> "Pastel Van Gogh"<br><p>Chocoflan con hojas de cacao</p>$199</p></li>
+
+    </ul>
+
+</section>
+
+
+
+<!--Area en blanco 2-->
+<div class="separador2"> </div>
+
+<!--Area de Toppers-->
+<section class="toppers" id="toppers">
+    <h3>Toppers</h3>
+    <ul class="adornos">
+        <li class="producto"> <img src="./images/RingTopper.png" alt="RingTopper" class="imgtopper"> "Anillo"<br><p>$39</p></li>
+
+        <li class="producto"> <img src="./images/BestDadTopper.png" alt="BestDadTopper" class="imgtopper"> "Best Dad" <br><p>$39</p></li>
+            
+        <li class="producto"> <img src="./images//BestMomTopper.png" alt="BestMomTopper" class="imgtopper"> "Best Mom"<br><p>$39</p></li>
+       
+        <li class="producto"> <img src="./images/Vela1.webp" alt="Vela1" class="imgtopper"> "Bengala Amarilla"<br><p>$39</p></li>
+
+        <li class="producto"> <img src="./images/Vela3.png" alt="Vela3" class="imgtopper"> "Bengala Azul"<br><p>$39</p></li>
+
+        <li class="producto"> <img src="./images/Vela2.webp" alt="Vela2" class="imgtopper"> "Bengala Rosa"<br><p>$39</p></li>
+
+        <li class="producto"> <img src="./images/HBDTopper.png" alt="HBDTopper" class="imgtopper"> "Happy Birth Day"<br><p>$39</p></li>
+
+        <li class="producto"> <img src="./images/LoveUTopper.png" alt="LoveUTopper" class="imgtopper"> "Love U"<br><p>$39</p></li>
+
+        <li class="producto"> <img src="./images/XVTopper.png" alt="XVTopper" class="imgtopper"> "XV's"<br><p>$39</p></li>
+
+
+    </ul>
+
+</section>
+
+<!--Area en blanco 2-->
+<div class="separador2"> </div>
+
+<!--Area de Pedido-->
+<h3 id="formulario">Pedido</h3>
+<section class="formulario">
+        <div class="caja1">
+            <form action="/pastelero.html" name="formf" id="form" method="get" target="_blank">
+                <label for="nombref" class="topic">Nombre:</label><br>
+                <input type="text" class="registro" id="nombref" name="nombref"><br><br>
+
+                <label for="number" class="topic">Numero de Telefono:</label><br>
+                <input type="number" class="registro" id="numerof"><br><br>
+
+                <label for="email" class="topic">E-mail:</label><br>
+                <input type="email" class="registro" id="emailf"><br><br>
+
+                <label for="name" class="topic">Direccion:</label><br>
+                <input type="text" class="registro" id="direccionf"><br><br>
+
+                <br>
+        </div>
+
+        <div class="botones">
+                <button type="submit" onclick="getData()">Encargar</button> <br>
+                <button type="reset" >Limpiar</button> 
+        </div>
+        <div class="caja2">
+            <label for="choice"><h2>Elige el pastel de tu agrado</h2><br></label><br>
+            <input list="choice" class="eleccion" id="contadorf1"><input type="number" name="contador" id="contador1">
+            <datalist id="choice">
+                <option value="Arcoiris">
+                <option value="Coco">
+                <option value="Da Vinci">
+                <option value="Diablo">
+                <option value="Hennesy">
+                <option value="Irlandes">
+                <option value="Opera">
+                <option value="Tres Leches">
+                <option value="Van Gogh">
+            </datalist>
+            <br><br>
+            <label for="choices"><h2>Elige el topper de tu agrado</h2><br></label><br>
+            <input list="choices" class="eleccion" id="contadorf2"><input type="number" name="contador" id="contador2">
+            <datalist id="choices">
+                <option value="Anillo">
+                <option value="Best Dad">
+                <option value="Best Mom">
+                <option value="Bengala Amarilla">
+                <option value="Bengala Azul">
+                <option value="Bengala Rosa">
+                <option value="Happy Birth Day">
+                <option value="Love U">
+                <option value="XV's">
+            </datalist>
+            <br>
+            <h2 style="text-align: center;">Combinacion de sabores que desees:</h3>
+                <br>
+            <div class="comentario"> 
+                <label for="comentario"></label>
+                <input type="text" name="comentario" id="comentariof" class="comentarios">
+            </div>
+
+        </div>
+      
+
+    </form>
+
+</section>
+<!--Area en blanco 2-->
+<div class="separador2"> </div>
+
+
+<footer class="piedepagina">
+    <p>LLamanos: 33-3764-3874</p>
+<p> Nos encontramos en Av. La calma Col.Palomar #7648</p>
+<p>Con Horarios de Lunes a Domingo de 08:00am a 07:00pm</p>
+
+      
+</footer>
+
+    
+</body>
+</html>
